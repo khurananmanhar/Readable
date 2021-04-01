@@ -147,3 +147,36 @@ del{
   background-color:#26A69A ;
   cursor: pointer;
 }
+/*Contact Page Styling*/
+.connection{
+  width: 100%;
+  margin: 1% auto;
+  text-align: center;
+}
+.top{
+  margin: 2% auto;
+}
+.top h2{
+  margin: 0%;
+  font-size: 30px;
+  font-weight: normal;
+}
+.top p{
+  margin: 3%;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.contact{
+  width: 100%;
+  margin: 5% auto;
+}
+.contact p{
+  margin: 1%;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.fa{
+  color: #fa4359;
+  background-color: #fff;
+  padding: 2;
+}
