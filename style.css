@@ -94,72 +94,7 @@ header {
 
 
 /*Store Styling*/
-<<<<<<< HEAD
-.showcase{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-.book{
-  width: 90%;
-  overflow: auto;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 2% 2%;
-  margin: 5% auto;
-  border-radius: 5px;
-}
-.image{
-  display: inline-block;
-  vertical-align: middle;
-  width: 15%;
-  min-width: 100px;
-  margin: 0 auto;
-}
-.details{
-  display: inline-block;
-  vertical-align: middle;
-  width: 60%;
-  margin: -1% auto;
-  padding: 2%;
-}
-.name, .description, .price{
-  color: #000;
-  text-align: left;
-}
-.description, .price{
-  margin-top: 0;
-  margin-bottom: 16px;
 
-}
-.description{
-  width: 100%;
-  font-size: 13px;
-  overflow: auto;
-}
-.price{
-  margin: 0;
-  font-size: 16px;
-  font-weight: bold;
-}
-del{
-  text-align: left;
-  color: #fa4359;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: bold;
-  font-size: 16px;
-}
-.orderBtn{
-  background-color: steelblue;
-  padding: 2% 4%;
-  margin: 5% auto;
-  border-radius: 5px;
-  border: none;
-  outline: none;
-}
-.orderBtn:hover{
-  background-color:#26A69A ;
-  cursor: pointer;
-=======
 
 .showcase {
     margin-top: 5%;
@@ -227,14 +162,12 @@ del {
 
 .orderBtn {
     background-color: steelblue;
-    width: 20%;
     padding: 2% 5%;
     margin: 5% auto;
     border-radius: 5px;
     border: none;
     outline: none;
     text-align: left;
->>>>>>> 84e4c9088e742f62ec6e1f29b407a2f696ed5da0
 }
 
 .orderBtn:hover {
