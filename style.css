@@ -23,6 +23,10 @@ footer {
     bottom: 0;
     position: static;
 }
+footer p{
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.8); ;
+}
 
 header {
     padding-top: 3%;
