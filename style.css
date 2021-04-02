@@ -1,182 +1,212 @@
 /*Overall Styling*/
-*{
+
+* {
     color: #fff;
 }
-body{
+
+body {
     font-family: Helvetica, sans-serif;
-    background: url("https://www.stylist.co.uk/images/app/uploads/2019/12/17162852/the-end-of-a-book-1268x845.jpeg?w=1200&h=1&fit=max&auto=format%2Ccompress") no-repeat center center fixed ;
+    background: url("https://www.stylist.co.uk/images/app/uploads/2019/12/17162852/the-end-of-a-book-1268x845.jpeg?w=1200&h=1&fit=max&auto=format%2Ccompress") no-repeat center center fixed;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 a {
     text-decoration: none;
-  }
-  
-  footer {
+}
+
+footer {
     width: 100%;
     text-align: center;
     bottom: 0;
     position: static;
-  }
-  
-  header {
+}
+
+header {
     padding-top: 3%;
     min-height: 70px;
-  }
-  
-  .container {
-  width: 90%;
-  margin: 0 auto;
-  }
-  
-  .branding {
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.branding {
     float: left;
-  }
-  
-  .branding h1 {
+}
+
+.branding h1 {
     font-weight: normal;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     float: right;
-  }
-  .navbar li {
+}
+
+.navbar li {
     display: inline-block;
     padding: 0 5px;
-  }
-  
-  .navbar li a {
+}
+
+.navbar li a {
     color: rgba(255, 255, 255, 0.8);
     font-weight: normal;
-  }
-  
-  .navbar li a:hover, .navbar .current a {
+}
+
+.navbar li a:hover,
+.navbar .current a {
     color: #ffffff;
-  }
+}
+
+
 /*Home Page Styling*/
+
 #introduction {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 7%;
-    }
-    
-    #introduction h1 {
-      font-size: 60px;
-    }
-    #introduction p{
-        margin: 10% auto;
-        font-size: 18px;
-        font-weight: lighter;
-    }
-    #introduction a{
-        background-color: steelblue;
-        width: 20%;
-        padding: 2% 8%;
-        margin: 0 auto;
-        border-radius: 5px;
-    }
-    #introduction a:hover{
-        background-color:#26A69A ;
-    }
-/*Store Styling*/
-.showcase{
-  margin-top: 5%;
-  margin-bottom: 5%;
 }
-.book{
-  width: 90%;
-  overflow: auto;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 2% 2%;
-  margin: 5% auto;
-  border-radius: 5px;
-}
-.image{
-  display: inline-block;
-  vertical-align: middle;
-  width: 15%;
-  min-width: 100px;
-  margin: 0 auto;
-}
-.details{
-  display: inline-block;
-  vertical-align: middle;
-  width: 60%;
-  margin: -1% auto;
-  padding: 2%;
-}
-.name, .description, .price{
-  color: #000;
-  text-align: left;
-}
-.description, .price{
-  margin-top: 0;
-  margin-bottom: 16px;
 
+#introduction h1 {
+    font-size: 60px;
 }
-.description{
-  width: 100%;
-  font-size: 13px;
-  overflow: auto;
+
+#introduction p {
+    margin: 10% auto;
+    font-size: 18px;
+    font-weight: lighter;
 }
-.price{
-  margin: 0;
-  font-size: 16px;
-  font-weight: bold;
+
+#introduction a {
+    background-color: steelblue;
+    width: 20%;
+    padding: 2% 8%;
+    margin: 0 auto;
+    border-radius: 5px;
 }
-del{
-  text-align: left;
-  color: #fa4359;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: bold;
-  font-size: 16px;
+
+#introduction a:hover {
+    background-color: #26A69A;
 }
-.orderBtn{
-  background-color: steelblue;
-  width: 20%;
-  padding: 2% 4%;
-  margin: 5% auto;
-  border-radius: 5px;
-  border: none;
-  outline: none;
+
+
+/*Store Styling*/
+
+.showcase {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.orderBtn:hover{
-  background-color:#26A69A ;
-  cursor: pointer;
+
+.book {
+    width: 90%;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2% 2%;
+    margin: 5% auto;
+    border-radius: 5px;
 }
+
+.image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15%;
+    min-width: 100px;
+    margin: 0 auto;
+}
+
+.details {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+    margin: -1% auto;
+    padding: 2%;
+}
+
+.name,
+.description,
+.price {
+    color: #000;
+    text-align: left;
+}
+
+.description,
+.price {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.description {
+    width: 100%;
+    font-size: 13px;
+    overflow: auto;
+}
+
+.price {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+del {
+    text-align: left;
+    color: #fa4359;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.orderBtn {
+    background-color: steelblue;
+    width: 20%;
+    padding: 2% 5%;
+    margin: 5% auto;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+
+.orderBtn:hover {
+    background-color: #26A69A;
+    cursor: pointer;
+}
+
+
 /*Contact Page Styling*/
-.connection{
-  width: 100%;
-  margin: 2% auto;
-  text-align: center;
+
+.connection {
+    width: 100%;
+    margin: 2% auto;
+    text-align: center;
 }
-.top{
-  margin: 2% auto;
+
+.top {
+    margin: 2% auto;
 }
-.top h2{
-  margin: 0%;
-  font-size: 30px;
-  font-weight: normal;
+
+.top h2 {
+    margin: 0%;
+    font-size: 30px;
+    font-weight: normal;
 }
-.top p{
-  margin: 3%;
-  font-size: 18px;
-  font-weight: lighter;
+
+.top p {
+    margin: 3%;
+    font-size: 18px;
+    font-weight: lighter;
 }
-.contact{
-  width: 100%;
-  margin: 5% auto;
+
+.contact {
+    width: 100%;
+    margin: 5% auto;
 }
-.contact p{
-  margin: 1%;
-  font-size: 16px;
-  font-weight: lighter;
-}
-.fa{
-  color: #fa4359;
-  background-color: #fff;
-  padding: 2;
+
+.contact p {
+    margin: 1%;
+    font-size: 16px;
+    font-weight: lighter;
 }
